@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motes de la U</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Los Motes de la U">
+
+<!-- imagen logoooooo -->
+      <span class="brand__text">
+        <img src="img/logo motes 2.png" alt="" width="60" height="60">
+        <strong>Motes de la U</strong>
+        <small>Comida universitaria con sabor de casa</small>
+      </span>
+    </a>
+<!-- Botones -->
+    <nav class="nav">
+      <a href="#menu">Menú</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#galeria">Galería</a>
+      <a href="#videos">Videos</a>
+      <a class="btn btn--small" href="#pedido">Pedir ahora</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__content">
+        <span class="badge">Sabor rápido · Hecho con cariño</span>
+        <h1>Motes de la U</h1>
+        <p>
+          Un rincón de confianza para recargar energías entre clases.
+          Aquí encuentras mote, platos tradicionales y combos pensados para estudiantes.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#menu">Ver menú</a>
+          <a class="btn btn--ghost" href="#videos">Ver videos</a>
+        </div>
+
+        <ul class="stats">
+          <li><strong>+10</strong><span>opciones</span></li>
+          <li><strong>100%</strong><span>casero</span></li>
+          <li><strong>Rápido</strong><span>y delicioso</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__card">
+        <div class="hero__image-wrap">
+          <img
+            src="img/plato.jpg"
+            alt="Plato de comida tradicional servido de forma apetitosa"
+          />
+          <div class="floating-tag floating-tag--one">Especial del día</div>
+          <div class="floating-tag floating-tag--two">Sabor universitario</div>
+        </div>
+      </div>
+    </section>
+<!--  imagenes -->
+
+    <section class="section" id="menu">
+      <div class="section__heading">
+        <span class="section__kicker">Menú destacado</span>
+        <h2>Combos rápidos y llenadores</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="card">
+          <img src="img/plato.jpg" alt="Plato de mote con acompañamientos" />
+          <div class="card__body">
+            <h3>Mote Clásico</h3>
+            <p>Mote suave, proteína y bebida.</p>
+            <div class="card__meta">
+              <strong>$1.00</strong>
+              <a href="#pedido">Pedir</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/jugo.jpg" alt="Plato rápido con presentación moderna" />
+          <div class="card__body">
+            <h3>Jugos Naturales</h3>
+            <p>Porción grande para aguantar toda la jornada.</p>
+            <div class="card__meta">
+              <strong>$1.00</strong>
+              <a href="#pedido">Pedir</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/fruta.jpg" alt="Bowl de comida con ingredientes frescos" />
+          <div class="card__body">
+            <h3>Saludable de la casa</h3>
+            <p>Opción ligera con fruta, yogurt y granola.</p>
+            <div class="card__meta">
+              <strong>$1.00</strong>
+              <a href="#pedido">Pedir</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--split" id="nosotros">
+      <div class="section__heading">
+        <span class="section__kicker">Sobre nosotros</span>
+        <h2>Una marca cercana, alegre y con identidad</h2>
+      </div>
+
+      <div class="split">
+        <div class="split__text">
+          <p>
+            El estilo visual de esta web toma como base la identidad del manual:
+            tonos crema, naranjas y marrones, con una presencia cálida y amigable.
+          </p>
+          <p>
+            La idea es que tu local se vea moderno, rápido y apetitoso, como una cadena de comida famosa,
+            pero manteniendo el carácter artesanal de la marca.
+          </p>
+
+          <div class="mini-cards">
+            <div class="mini-card">
+              <h3>Rapidez</h3>
+              <p>Pedido ágil para estudiantes.</p>
+            </div>
+            <div class="mini-card">
+              <h3>Tradición</h3>
+              <p>Sabor casero y auténtico.</p>
+            </div>
+            <div class="mini-card">
+              <h3>Confianza</h3>
+              <p>Imagen limpia y cercana.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="split__visual">
+          <div class="brand-wall">
+            <div class="brand-wall__logo-wrap" style="margin-bottom: 15px;">
+<!-- imagen logoooooo -->
+
+            </div>
+            <div class="imagen-centro">
+              <img src="img/logo motes 2.png"  alt="" width="160" height="150">
+                </div>
+                <div>
+              <h3>Motes de la U</h3>
+              <p>Tu comida favorita entre clases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <div class="section__heading">
+        <span class="section__kicker">Galería</span>
+        <h2>Fotos para dar antojo</h2>
+      </div>
+
+      <div class="gallery">
+        <img src="img/plato.jpg" alt="Plato servido en mesa de restaurante" />
+        <img src="img/jugo.jpg" alt="Mesa con comida variada" />
+        <img src="img/fruta.jpg" alt="Comida presentada de forma elegante" />
+        <img src="img/todo.jpg" alt="Plato principal apetitoso" />
+      </div>
+   </section>
+<!-- videoooooooooooo -->
+    <section class="section" id="videos">
+      <div class="section__heading">
+        <span class="section__kicker">Videos</span>
+        <h2>Videos sobre la marca</h2>
+      </div>
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="img/Animacion de marca.mp4" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
+            </iframe>
+          </div>
+          <div class="video-card__body">
+            <h3>Video principal</h3>
+          </div>
+        </article>
+
+        <article class="video-card video-card--upload">
+          <div class="upload-box">
+            <h3>Vista previa opcional</h3>
+            <p>Si tienes alguna foto o video sobre nosotros, puedes cargarlo desde tu computadora.</p>
+            <label class="upload-btn" for="videoInput">Seleccionar video</label>
+            <input id="videoInput" type="file" accept="video/*" hidden />
+            <video id="previewVideo" controls style="display:none;"></video>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+   <section class="section cta" id="pedido">
+      <div class="cta__content" style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <span class="section__kicker">Haz tu pedido</span>
+        <h2>¡Pide tus motes ahora!</h2>
+        
+        <!-- Datos de contacto editables -->
+        <div class="cta__info" style="margin-bottom: 25px;">
+          <p style="margin: 5px 0;"><strong>📞 Teléfono:</strong> 0988764600</p>
+          <p style="margin: 5px 0;"><strong>📍 Ubicación:</strong> Av. Universitaria y Calle Principal (Frente al campus)</p>
+        </div>
+
+        <!-- Botón de acción principal para WhatsApp -->
+        <div style="margin-bottom: 30px;">
+          <a class="btn btn--dark" href="https://wa.me/593987654321" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+        </div>
+
+        <!-- Apartado de Redes Sociales -->
+
+        <div class="cta__socials" style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px;">
+          <p style="font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Síguenos en nuestras redes</p>
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank" rel="noopener" style="text-decoration: none; font-weight: bold; color: inherit;">Whatsapp</a>
+            <a href="https://www.instagram.com/losmotesdelau?igsh=MWk3c3puOXpzb3hoZA==" target="_blank" rel="noopener" style="text-decoration: none; font-weight: bold; color: inherit;">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Motes de la U · Sabor universitario con identidad propia</p>
+  </footer>
+
+  <script>
+    const input = document.getElementById('videoInput');
+    const preview = document.getElementById('previewVideo');
+
+    if (input && preview) {
+      input.addEventListener('change', () => {
+        const file = input.files && input.files[0];
+        if (!file) return;
+        preview.src = URL.createObjectURL(file);
+        preview.style.display = 'block';
+        preview.play().catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
